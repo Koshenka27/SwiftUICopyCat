@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,39 @@
 		0229AA8D25D58B7500B2EB71 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0229AA7825D58B6F00B2EB71 /* ContentView.swift */; };
 		0229AA8E25D58B7500B2EB71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0229AA7925D58B7500B2EB71 /* Assets.xcassets */; };
 		0229AA8F25D58B7500B2EB71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0229AA7925D58B7500B2EB71 /* Assets.xcassets */; };
+		0229AA9B25D59AB400B2EB71 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0229AA9A25D59AB400B2EB71 /* ChatView.swift */; };
+		0229AA9C25D59AB400B2EB71 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0229AA9A25D59AB400B2EB71 /* ChatView.swift */; };
+		0229AAA025D59ABF00B2EB71 /* ChatBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0229AA9F25D59ABF00B2EB71 /* ChatBubble.swift */; };
+		0229AAA125D59ABF00B2EB71 /* ChatBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0229AA9F25D59ABF00B2EB71 /* ChatBubble.swift */; };
+		0229AAA525D59AC900B2EB71 /* InstagramView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0229AAA425D59AC900B2EB71 /* InstagramView.swift */; };
+		0229AAA625D59AC900B2EB71 /* InstagramView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0229AAA425D59AC900B2EB71 /* InstagramView.swift */; };
+		0229AAAA25D59AD400B2EB71 /* StoryProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0229AAA925D59AD400B2EB71 /* StoryProgressBar.swift */; };
+		0229AAAB25D59AD400B2EB71 /* StoryProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0229AAA925D59AD400B2EB71 /* StoryProgressBar.swift */; };
+		0229AAAF25D59AE200B2EB71 /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0229AAAE25D59AE200B2EB71 /* Story.swift */; };
+		0229AAB025D59AE200B2EB71 /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0229AAAE25D59AE200B2EB71 /* Story.swift */; };
+		0229AAB425D59AEC00B2EB71 /* FacebookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0229AAB325D59AEC00B2EB71 /* FacebookView.swift */; };
+		0229AAB525D59AEC00B2EB71 /* FacebookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0229AAB325D59AEC00B2EB71 /* FacebookView.swift */; };
+		0229AAB925D59AF600B2EB71 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0229AAB825D59AF600B2EB71 /* Post.swift */; };
+		0229AABA25D59AF600B2EB71 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0229AAB825D59AF600B2EB71 /* Post.swift */; };
+		0229AABE25D59AFE00B2EB71 /* PostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0229AABD25D59AFE00B2EB71 /* PostView.swift */; };
+		0229AABF25D59AFE00B2EB71 /* PostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0229AABD25D59AFE00B2EB71 /* PostView.swift */; };
+		0229AAC325D59B0800B2EB71 /* ReactionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0229AAC225D59B0800B2EB71 /* ReactionView.swift */; };
+		0229AAC425D59B0800B2EB71 /* ReactionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0229AAC225D59B0800B2EB71 /* ReactionView.swift */; };
+		0229AAC825D59B1100B2EB71 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0229AAC725D59B1100B2EB71 /* Helpers.swift */; };
+		0229AAC925D59B1100B2EB71 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0229AAC725D59B1100B2EB71 /* Helpers.swift */; };
+		0229AACE25D59C9000B2EB71 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 0229AACD25D59C9000B2EB71 /* SDWebImageSwiftUI */; };
+		0229AAD725D59DD300B2EB71 /* like.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0229AAD125D59DD300B2EB71 /* like.gif */; };
+		0229AAD825D59DD300B2EB71 /* like.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0229AAD125D59DD300B2EB71 /* like.gif */; };
+		0229AAD925D59DD300B2EB71 /* sad.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0229AAD225D59DD300B2EB71 /* sad.gif */; };
+		0229AADA25D59DD300B2EB71 /* sad.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0229AAD225D59DD300B2EB71 /* sad.gif */; };
+		0229AADB25D59DD300B2EB71 /* wow.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0229AAD325D59DD300B2EB71 /* wow.gif */; };
+		0229AADC25D59DD300B2EB71 /* wow.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0229AAD325D59DD300B2EB71 /* wow.gif */; };
+		0229AADD25D59DD300B2EB71 /* angry.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0229AAD425D59DD300B2EB71 /* angry.gif */; };
+		0229AADE25D59DD300B2EB71 /* angry.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0229AAD425D59DD300B2EB71 /* angry.gif */; };
+		0229AADF25D59DD300B2EB71 /* love.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0229AAD525D59DD300B2EB71 /* love.gif */; };
+		0229AAE025D59DD300B2EB71 /* love.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0229AAD525D59DD300B2EB71 /* love.gif */; };
+		0229AAE125D59DD300B2EB71 /* haha.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0229AAD625D59DD300B2EB71 /* haha.gif */; };
+		0229AAE225D59DD300B2EB71 /* haha.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0229AAD625D59DD300B2EB71 /* haha.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +57,22 @@
 		0229AA8625D58B7500B2EB71 /* SwiftUICopyCat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUICopyCat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0229AA8825D58B7500B2EB71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0229AA8925D58B7500B2EB71 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		0229AA9A25D59AB400B2EB71 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		0229AA9F25D59ABF00B2EB71 /* ChatBubble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatBubble.swift; sourceTree = "<group>"; };
+		0229AAA425D59AC900B2EB71 /* InstagramView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramView.swift; sourceTree = "<group>"; };
+		0229AAA925D59AD400B2EB71 /* StoryProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryProgressBar.swift; sourceTree = "<group>"; };
+		0229AAAE25D59AE200B2EB71 /* Story.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Story.swift; sourceTree = "<group>"; };
+		0229AAB325D59AEC00B2EB71 /* FacebookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookView.swift; sourceTree = "<group>"; };
+		0229AAB825D59AF600B2EB71 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		0229AABD25D59AFE00B2EB71 /* PostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostView.swift; sourceTree = "<group>"; };
+		0229AAC225D59B0800B2EB71 /* ReactionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactionView.swift; sourceTree = "<group>"; };
+		0229AAC725D59B1100B2EB71 /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		0229AAD125D59DD300B2EB71 /* like.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = like.gif; sourceTree = "<group>"; };
+		0229AAD225D59DD300B2EB71 /* sad.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = sad.gif; sourceTree = "<group>"; };
+		0229AAD325D59DD300B2EB71 /* wow.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = wow.gif; sourceTree = "<group>"; };
+		0229AAD425D59DD300B2EB71 /* angry.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = angry.gif; sourceTree = "<group>"; };
+		0229AAD525D59DD300B2EB71 /* love.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = love.gif; sourceTree = "<group>"; };
+		0229AAD625D59DD300B2EB71 /* haha.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = haha.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0229AACE25D59C9000B2EB71 /* SDWebImageSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +109,10 @@
 			children = (
 				0229AA7725D58B6F00B2EB71 /* SwiftUICopyCatApp.swift */,
 				0229AA7825D58B6F00B2EB71 /* ContentView.swift */,
+				0229AAE925D59FC200B2EB71 /* WhatsApp */,
+				0229AAE825D59FBB00B2EB71 /* Instagram */,
+				0229AAEC25D59FD100B2EB71 /* Facebook */,
+				0229AAC725D59B1100B2EB71 /* Helpers.swift */,
 				0229AA7925D58B7500B2EB71 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -90,6 +144,50 @@
 			path = macOS;
 			sourceTree = "<group>";
 		};
+		0229AAE725D59FB200B2EB71 /* Reactions */ = {
+			isa = PBXGroup;
+			children = (
+				0229AAD425D59DD300B2EB71 /* angry.gif */,
+				0229AAD625D59DD300B2EB71 /* haha.gif */,
+				0229AAD125D59DD300B2EB71 /* like.gif */,
+				0229AAD525D59DD300B2EB71 /* love.gif */,
+				0229AAD225D59DD300B2EB71 /* sad.gif */,
+				0229AAD325D59DD300B2EB71 /* wow.gif */,
+			);
+			path = Reactions;
+			sourceTree = "<group>";
+		};
+		0229AAE825D59FBB00B2EB71 /* Instagram */ = {
+			isa = PBXGroup;
+			children = (
+				0229AAA425D59AC900B2EB71 /* InstagramView.swift */,
+				0229AAA925D59AD400B2EB71 /* StoryProgressBar.swift */,
+				0229AAAE25D59AE200B2EB71 /* Story.swift */,
+			);
+			path = Instagram;
+			sourceTree = "<group>";
+		};
+		0229AAE925D59FC200B2EB71 /* WhatsApp */ = {
+			isa = PBXGroup;
+			children = (
+				0229AA9A25D59AB400B2EB71 /* ChatView.swift */,
+				0229AA9F25D59ABF00B2EB71 /* ChatBubble.swift */,
+			);
+			path = WhatsApp;
+			sourceTree = "<group>";
+		};
+		0229AAEC25D59FD100B2EB71 /* Facebook */ = {
+			isa = PBXGroup;
+			children = (
+				0229AAB325D59AEC00B2EB71 /* FacebookView.swift */,
+				0229AAB825D59AF600B2EB71 /* Post.swift */,
+				0229AABD25D59AFE00B2EB71 /* PostView.swift */,
+				0229AAC225D59B0800B2EB71 /* ReactionView.swift */,
+				0229AAE725D59FB200B2EB71 /* Reactions */,
+			);
+			path = Facebook;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,6 +204,9 @@
 			dependencies = (
 			);
 			name = "SwiftUICopyCat (iOS)";
+			packageProductDependencies = (
+				0229AACD25D59C9000B2EB71 /* SDWebImageSwiftUI */,
+			);
 			productName = "SwiftUICopyCat (iOS)";
 			productReference = 0229AA7E25D58B7500B2EB71 /* SwiftUICopyCat.app */;
 			productType = "com.apple.product-type.application";
@@ -153,6 +254,9 @@
 				Base,
 			);
 			mainGroup = 0229AA7125D58B6E00B2EB71;
+			packageReferences = (
+				0229AACC25D59C9000B2EB71 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
 			productRefGroup = 0229AA7F25D58B7500B2EB71 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -168,7 +272,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0229AADB25D59DD300B2EB71 /* wow.gif in Resources */,
+				0229AAD925D59DD300B2EB71 /* sad.gif in Resources */,
 				0229AA8E25D58B7500B2EB71 /* Assets.xcassets in Resources */,
+				0229AAE125D59DD300B2EB71 /* haha.gif in Resources */,
+				0229AAD725D59DD300B2EB71 /* like.gif in Resources */,
+				0229AADF25D59DD300B2EB71 /* love.gif in Resources */,
+				0229AADD25D59DD300B2EB71 /* angry.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,7 +286,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0229AADC25D59DD300B2EB71 /* wow.gif in Resources */,
+				0229AADA25D59DD300B2EB71 /* sad.gif in Resources */,
 				0229AA8F25D58B7500B2EB71 /* Assets.xcassets in Resources */,
+				0229AAE225D59DD300B2EB71 /* haha.gif in Resources */,
+				0229AAD825D59DD300B2EB71 /* like.gif in Resources */,
+				0229AAE025D59DD300B2EB71 /* love.gif in Resources */,
+				0229AADE25D59DD300B2EB71 /* angry.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,8 +303,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0229AAAF25D59AE200B2EB71 /* Story.swift in Sources */,
 				0229AA8C25D58B7500B2EB71 /* ContentView.swift in Sources */,
+				0229AAB425D59AEC00B2EB71 /* FacebookView.swift in Sources */,
+				0229AAA525D59AC900B2EB71 /* InstagramView.swift in Sources */,
+				0229AA9B25D59AB400B2EB71 /* ChatView.swift in Sources */,
 				0229AA8A25D58B7500B2EB71 /* SwiftUICopyCatApp.swift in Sources */,
+				0229AAC325D59B0800B2EB71 /* ReactionView.swift in Sources */,
+				0229AAC825D59B1100B2EB71 /* Helpers.swift in Sources */,
+				0229AAB925D59AF600B2EB71 /* Post.swift in Sources */,
+				0229AAAA25D59AD400B2EB71 /* StoryProgressBar.swift in Sources */,
+				0229AABE25D59AFE00B2EB71 /* PostView.swift in Sources */,
+				0229AAA025D59ABF00B2EB71 /* ChatBubble.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,8 +322,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0229AAB025D59AE200B2EB71 /* Story.swift in Sources */,
 				0229AA8D25D58B7500B2EB71 /* ContentView.swift in Sources */,
+				0229AAB525D59AEC00B2EB71 /* FacebookView.swift in Sources */,
+				0229AAA625D59AC900B2EB71 /* InstagramView.swift in Sources */,
+				0229AA9C25D59AB400B2EB71 /* ChatView.swift in Sources */,
 				0229AA8B25D58B7500B2EB71 /* SwiftUICopyCatApp.swift in Sources */,
+				0229AAC425D59B0800B2EB71 /* ReactionView.swift in Sources */,
+				0229AAC925D59B1100B2EB71 /* Helpers.swift in Sources */,
+				0229AABA25D59AF600B2EB71 /* Post.swift in Sources */,
+				0229AAAB25D59AD400B2EB71 /* StoryProgressBar.swift in Sources */,
+				0229AABF25D59AFE00B2EB71 /* PostView.swift in Sources */,
+				0229AAA125D59ABF00B2EB71 /* ChatBubble.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,6 +575,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0229AACC25D59C9000B2EB71 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0229AACD25D59C9000B2EB71 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0229AACC25D59C9000B2EB71 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 0229AA7225D58B6E00B2EB71 /* Project object */;
 }
